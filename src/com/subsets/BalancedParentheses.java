@@ -13,7 +13,6 @@ public class BalancedParentheses {
 
 
     public void generateParenthesisRecursive(int remainingOpenParentheses, int remainingCloseParentheses, StringBuilder currentString, List<String> result) {
-        StringBuilder xxx = new StringBuilder(currentString);
         if(remainingOpenParentheses == 0 && remainingCloseParentheses == 0)
             result.add(currentString.toString());
         if(remainingOpenParentheses>0) {

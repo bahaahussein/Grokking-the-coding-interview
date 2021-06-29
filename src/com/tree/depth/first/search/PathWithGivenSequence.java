@@ -13,7 +13,6 @@ medium
 public class PathWithGivenSequence {
 
     public boolean existPath(TreeNode root, int[] sequence) {
-        Set
         if(root == null && sequence.length == 0)
             return true;
         if(root == null || sequence.length == 0)

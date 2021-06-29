@@ -9,8 +9,6 @@ public class Permutations {
         for(int i=0; i<nums.length; i++) {
             permuteHelper(nums, i, new ArrayList<>(), result, new HashSet<>());
         }
-        StringBuilder sb = new StringBuilder();
-        StringBuilder sb2 = new StringBuilder(sb);
         return result;
     }
 
